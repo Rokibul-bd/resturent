@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+/*=====START HEADER SECTION====================*/
+.header{
+    padding:120px 0;
+}
+.header-flex-container{
+    display:flex;
+    gap:100px;
+}
+.header-text h1{
+    font-size:50px;
+    font-weight:700;
+    margin-bottom:30px;
+}
+.header-text .sp-color{
+    color:orange;
+}
+.header-text p{
+    font-size:18px;
+    line-height:22px;
+}
+.btn-link{
+    text-decoration: none;
+    padding:10px 20px;
+    background-image:linear-gradient(red, orange);
+    color:#fff;
+    font-size:22px;
+    border-radius:5px;
+    margin-top: 30px;
+    display:inline-block;
+    text-transform: uppercase;
+}
+/*=======START ABOUT SECTION==========*/
+.about{
+    padding:120px 0;
+    background:url(./img/7.png) no-repeat;
+    background-size:cover;
+}
+.about-flex{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.about .about-images img{
+    max-width:100%;
+}
+.about .about-text{
+    margin-left:30%;
+}
+.about .about-text h2{
+    font-size:45px;
+    font-weight:700;
+    margin-bottom:30px;
+}
+.about .about-text p{
+    line-height:25px;
+    font-size:18px;
+    text-align: justify;
+}
+
+/*=========START RESIPY=================================*/
+.respi{
+    padding:120px 0;
+}
+.respi-header{
+    display:flex;
+    justify-content:center;
+    margin-bottom: 50px;
+}
+.respi-header h1{
+    font-size:55px;
+}
+.respi-ph{
+    display:flex;
+    justify-content: center;
+    width:50%;
+    margin:0 auto;
+}
+.respi-ph p{
+    line-height:1.5;
+    font-size:18px;
+}
+
+.card-component{
+    display:flex;
+    margin-top: 100px;
+}
+.card{
+    padding: 50px;
+    box-shadow: 3px 3px 4px 2px #b5afaf;
+    margin: 30px;
+}
+.card img{
+    max-width:100%;
+    border-radius: 20px;
+}
+.card h3{
+    font-size:30px;
+    font-weight:600;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.card p{
+    line-height:1.5;
+    text-align: justify;
+}
+/*===============SUBCRIBE SECTION==========================*/
+.subcribe{
+    padding:120px;
+}
+.subcribe .container{
+    box-shadow:3px 3px 4px 2px #b5afaf;
+    padding:40px;
+}
+.sub-flex{
+    display:flex;
+    justify-content: center;
+}
+.items{
+    padding:0 100px;
+}
+.items h2{
+    font-weight: 700;
+    font-size:35px;
+    margin-bottom: 20px;
+}
+/*============FOOOTER SECTION=========================*/
+.footer{
+    background:rgba(0,0,0,0.9);
+    padding:60px;
+    color:#fff;
+}
+.footer-header, .footer-ph, .copyright{
+    display:flex;
+    justify-content: center;
+}
+.footer-header h1{
+    color:purple;
+}
+.footer-ph{
+    margin: 20px 0;
+}
